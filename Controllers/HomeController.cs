@@ -15,6 +15,9 @@ namespace Testando.Controllers
 
         public IActionResult Index()
         {
+
+            ViewData["Aluno"] = "Felipe Perlato"; 
+            ViewData["email"] = "fe_perlato@hotmail.com";
             return View();
         }
 
